@@ -1,0 +1,115 @@
+.calcolatrice {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 50px repeat(5, 1fr);
+  width: 400px;
+  height: 400px;
+  grid-template-areas:
+    "risultato risultato risultato risultato"
+    "somma sottrazione moltiplicazione divisione"
+    "sette otto nove uguale"
+    "quatro cinque sei uguale"
+    "uno due tre uguale"
+    "zero punto ac uguale";
+
+  border-radius: 20px;
+font-size: 40px;
+overflow: hidden;
+border: 1px solid black;
+}
+
+.risultato {
+  grid-area: risultato;
+  background-color: rgb(96, 94, 106);
+  color: white;
+  text-align: end;
+  padding-right: 5px;
+}
+
+.somma {
+  grid-area: somma;
+}
+
+.sottrazione {
+  grid-area: sottrazione;
+}
+
+.moltiplicazione {
+  grid-area: moltiplicazione;
+}
+
+.divisione {
+  grid-area: divisione;
+}
+
+.uno {
+  grid-area: uno;
+}
+
+.due {
+  grid-area: due;
+}
+
+.tre {
+  grid-area: tre;
+}
+
+.quatro {
+  grid-area: quatro;
+}
+
+.cinque {
+  grid-area: cinque;
+}
+
+.sei {
+  grid-area: sei;
+}
+
+.sette {
+  grid-area: sette;
+}
+
+.otto {
+  grid-area: otto;
+}
+
+.nove {
+  grid-area: nove;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.punto {
+  grid-area: punto;
+}
+
+.ac {
+  grid-area: ac;
+}
+
+.uguale {
+  grid-area: uguale;
+  background-color: rgb(231, 111, 111);
+  display: flex;
+  justify-content: center;
+}
+
+.operazioni {
+  background-color: rgb(157, 154, 177);
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(96, 94, 106);
+}
+.numeri {
+  background-color: rgb(226, 225, 238);
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(96, 94, 106);
+}
+
+p {
+    margin: auto;
+}
