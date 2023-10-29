@@ -1,3 +1,3 @@
-# CSS
-
-This repo contains exercises from Develhope Bootcamp
+Replicate the layout present in asset/layout1.png, using CSS Flexbox property.
+**Suggestion:**
+Look at video about the CSS Flexbox property

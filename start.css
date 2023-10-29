@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#yellow {
+  order: 1;
+}
+
+#red {
+  order: 2;
+}
+
+#green {
+  order: 3;
+}
+
+#orange {
+  flex-grow: 1;
+  order: 4;
+}
+
+#blue {
+  order: 5;
+}
