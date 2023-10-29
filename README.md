@@ -1,3 +1,5 @@
-# CSS
+Rewrite the rules using the CSS custom properties.
 
-This repo contains exercises from Develhope Bootcamp
+**Suggestion**:
+
+Use the `:root `selector, defining there all the properties and use them in the `body`and `.ball `selectors
