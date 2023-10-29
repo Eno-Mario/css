@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#green {
+    grid-column: span 3;
+    order: -1;
+}
+
+
+#orange {
+    grid-column: span 2;
+}
+
+#blue {
+    grid-row: span 3;
+}
+
+#red, #yellow, #blue{
+    order: -1;
+}
+
+#red, #yellow {
+    grid-row: span 2;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
