@@ -1,0 +1,35 @@
+article {
+  width: 330px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+img {
+  width: inherit;
+}
+
+p, h2 {
+    padding-left: 10px;
+}
+
+body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  body {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+}
